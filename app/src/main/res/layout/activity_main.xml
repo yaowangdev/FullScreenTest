@@ -9,6 +9,13 @@
         android:src="@mipmap/ic_launcher"
         />
     <include layout="@layout/top_bar"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="变色"
+        android:onClick="change"
+        />
 
 
 </RelativeLayout>

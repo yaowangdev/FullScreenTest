@@ -1,5 +1,6 @@
 package com.ehighsun.fullscreentest;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -27,5 +28,9 @@ public class MainActivity extends BaseActivity {
 
     public void goBack(View v){
         finish();
+    }
+
+    public void change(View v){
+        llTitleBar.setBackgroundColor(Color.parseColor("#00ff00"));
     }
 }
